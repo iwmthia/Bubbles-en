@@ -1800,3 +1800,12 @@ float: left;
     margin-right: auto;
     padding-bottom: 20px;
 }
+
+ol>li {
+        padding-bottom: 7px;
+}
+
+.terms-title {
+    color: #abadbe;
+    padding-bottom: 40px;
+}
