@@ -59,7 +59,7 @@
         <div class="hero-slides owl-carousel">
             <div class="single-hero-slide d-flex align-items-end justify-content-center">
                 <div class="hero-slide-content text-center">
-                    <h2>A Network Of Partnership Programs</h2>
+                    <h2>Margin Advertising Netwok</h2>
                     <h4>For Webmasters and Advertisers</h4>
                     <img class="slide-img" src="img/bg-img/device.png" alt="">
                 </div>
@@ -197,7 +197,7 @@
         </div>
 
         <div class="workflow-img">
-            <img src="img/core-img/work-progress.png" alt="">
+            <img src="img/core-img/work-progress.png" alt="work progress">
         </div>
 
         <div class="workflow-slides-area">
@@ -208,26 +208,19 @@
                             <div class="single-workflow-area d-flex">
                                 <h2>1.</h2>
                                 <div class="workflow-content ml-15">
-                                    <h4>Application</h4>
-                                    <p>Send us a request via a feedback form, phone or e-mail.</p>
+                                    <h4>Consultation</h4>
+                                    <p>Send us a request and our managers will answer your questions and prepare a suitable offer.</p>
                                 </div>
                             </div>
                             <div class="single-workflow-area d-flex">
                                 <h2>2.</h2>
-                                <div class="workflow-content ml-15">
-                                    <h4>Consultation</h4>
-                                    <p>Our managers will answer your questions and prepare a suitable offer for you.</p>
-                                </div>
-                            </div>
-                            <div class="single-workflow-area d-flex">
-                                <h2>3.</h2>
                                 <div class="workflow-content ml-15">
                                     <h4>Start working</h4>
                                     <p>Our professionals will set up an advertising campaign and bring new clients.</p>
                                 </div>
                             </div>
                             <div class="single-workflow-area d-flex">
-                                <h2>4.</h2>
+                                <h2>3.</h2>
                                 <div class="workflow-content ml-15">
                                     <h4>Result</h4>
                                     <p>You will receive a guaranteed outcome, many new clients and profitable business.</p>
@@ -270,9 +263,9 @@
                         <div class="single-footer-widget mb-100 fl-left pl50">
                             <h5><span class="no">Menu</span></h5>
                             <ul>
-                                <li><a href="publishers.html">Publishers</a></li>
-                                <li><a href="advertisers.html">Advertisers</a></li>
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="terms.html">Terms of Service</a></li>
+                                <li><a href="privacy.html">Privacy Policy</a></li> 
+                                
                             </ul>
                         </div>
                     </div>
@@ -281,9 +274,10 @@
                         <div class="single-footer-widget mb-100 fl-left">
                             <h5><span class="no">Menu</span></h5>
                             <ul>
-                                <li><a href="contact.html">Contact us</a></li>
-                                <li><a href="agreement.html">User Agreement</a></li>
-                                <li><a href="privacy.html">Privacy Policy</a></li>                                
+                                <li><a href="publishers.html">Publishers</a></li>
+                                <li><a href="advertisers.html">Advertisers</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact us</a></li>                              
                             </ul>
                         </div>
                     </div>
@@ -341,6 +335,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/active.js"></script>
+    <script> 
+        $(window).resize(function(){
+if($(window).width() > 1900){
+    owlProjects.trigger('destroy.owl.carousel');
+}
+});
+    </script>
 </body>
 
 </html>

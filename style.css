@@ -532,7 +532,7 @@ img {
     font-weight: 400;
 }
 
-.hero-slides .owl-prev,
+/*.hero-slides .owl-prev,
 .hero-slides .owl-next {
     position: absolute;
     width: 60px;
@@ -557,7 +557,7 @@ img {
 .hero-slides .owl-prev:hover,
 .hero-slides .owl-next:hover {
     background-color: #4a7aec;
-}
+}*/
 
 /* -------------------------
 :: 4.0 Service Area
@@ -586,7 +586,7 @@ img {
     margin-bottom: 20px;
 }
 
-.mosh-service-slides .owl-prev,
+/*.mosh-service-slides .owl-prev,
 .mosh-service-slides .owl-next {
     position: absolute;
     width: 50px;
@@ -606,7 +606,7 @@ img {
 .mosh-service-slides .owl-next {
     left: auto;
     right: -25px;
-}
+}*/
 
 /* -------------------------
 :: 5.0 Clients Area
@@ -1223,7 +1223,7 @@ span.accor-open {
     position: relative;
     z-index: 2;
 }
-
+/*
 .mosh-team-slides .owl-prev,
 .mosh-team-slides .owl-next {
     position: absolute;
@@ -1244,7 +1244,7 @@ span.accor-open {
 .mosh-team-slides .owl-next {
     left: auto;
     right: -25px;
-}
+}*/
 
 .mosh-subscribe-newsletter-area {
     background-attachment: fixed;
@@ -1360,7 +1360,7 @@ span.accor-open {
     z-index: 1;
 }
 
-.testimonials-slides:before {
+/*.testimonials-slides:before {
     position: absolute;
     width: 33.33333%;
     text-align: center;
@@ -1382,9 +1382,9 @@ span.accor-open {
     z-index: -5;
     height: 100%;
     color: #fff;
-}
+}*/
 
-.testimonials-slides .owl-prev,
+/*.testimonials-slides .owl-prev,
 .testimonials-slides .owl-next {
     position: absolute;
     width: 60px;
@@ -1399,12 +1399,12 @@ span.accor-open {
     color: #a2baff;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-}
+}*/
 
-.testimonials-slides .owl-next {
+/*.testimonials-slides .owl-next {
     left: auto;
     right: -25px;
-}
+}*/
 
 .testimonials-slides .single-testimonial-area .testimonial-content {
     display: none;
@@ -1425,7 +1425,7 @@ span.accor-open {
 
 /* Sonar CSS */
 
-.testimonial-thumb:before {
+/*.testimonial-thumb:before {
     content: '';
     display: inline-block;
     position: absolute;
@@ -1437,12 +1437,12 @@ span.accor-open {
     -webkit-animation: sonar-effect 1s ease-in-out 0s infinite;
     animation: sonar-effect 1s ease-in-out 0s infinite;
     z-index: -1
-}
+}*/
 
-.testimonials-slides .center .testimonial-thumb:before {
+/*.testimonials-slides .center .testimonial-thumb:before {
     display: none;
 }
-
+*/
 @-webkit-keyframes sonar-effect {
     0% {
         opacity: 0;
@@ -1766,7 +1766,7 @@ float: left;
 }
 
 .pl50 {
-    padding-left: 50%;
+    padding-left: 30%;
 }
 
 .text-center {
