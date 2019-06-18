@@ -10,7 +10,7 @@
             margin: 0,
             dots: false,
             nav: true,
-            navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>']
+            navText: ['<i class="fa " aria-hidden="true"></i>', '<i class="fa " aria-hidden="true"></i>']
         });
     }
 
@@ -25,7 +25,7 @@
             dots: false,
             nav: true,
             startPosition: 1,
-            navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+            navText: ['<i class="fa " aria-hidden="true"></i>', '<i class="fa " aria-hidden="true"></i>'],
             responsive: {
                 0: {
                     items: 1
@@ -44,7 +44,7 @@
         $(".mosh-workflow-slides").owlCarousel({
             items: 3,
             loop: true,
-            autoplay: true,
+            autoplay: false,
             smartSpeed: 800,
             margin: 30,
             center: true,
@@ -73,7 +73,7 @@
             margin: 50,
             center: true,
             nav: true,
-            navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+            navText: ['<i class="fa " aria-hidden="true"></i>', '<i class="fa " aria-hidden="true"></i>'],
             responsive: {
                 0: {
                     items: 1
@@ -97,7 +97,7 @@
             margin: 0,
             center: true,
             nav: true,
-            navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+            navText: ['<i class="fa " aria-hidden="true"></i>', '<i class="fa " aria-hidden="true"></i>'],
             responsive: {
                 0: {
                     items: 1
